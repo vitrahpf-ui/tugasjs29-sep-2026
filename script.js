@@ -23,17 +23,18 @@ skor *= 20;
 console.log(skor);
 
 // miss yang ini soalnya kebalik kan ya? di lms di tulis nya "Jika jam lebih dari jam 12, cetak "Selamat Pagi". Jika tidak, cetak "Selamat Siang"" ini kebalik kan ya miss? harusnya kurang dari jam 12 selamat pagi jika tidak selamat siang, soalnya dari tadi aku bingung kenapa jam 14 jawabanku selamat pagi padahal udah sesuai ikutin di lms. jadi aku bikin dua, yg kurang dari sama yang lebih dari
-
-// let jam = 14;
-// if (jam > 12) {
-//   console.log("Selamat Pagi");
-// } else {
-//   console.log("Selamat Siang");
-// }
-
+// sesuai sama lms (jam 14 itu selamat pagi)
 let jam = 14;
-if (jam < 12) {
+if (jam > 12) {
   console.log("Selamat Pagi");
 } else {
   console.log("Selamat Siang");
 }
+
+// ini yang jadinya jam 14 itu selamat siang
+// let jam = 14;
+// if (jam < 12) {
+//   console.log("Selamat Pagi");
+// } else {
+//   console.log("Selamat Siang");
+// }
